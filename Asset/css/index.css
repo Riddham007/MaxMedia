@@ -14435,11 +14435,12 @@ ul.button-selection-group>li:not(:last-child) {
 ul.button-group-icon {
     display: flex;
     flex-direction: row;
-    justify-content: center
+    justify-content: left;
+    flex-wrap: wrap;
 }
 
 ul.button-group-icon.book-comparison-product-icons {
-    display: inline-block
+    display: flex;
 }
 
 ul.button-group-icon>li {
